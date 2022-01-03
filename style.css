@@ -43,22 +43,8 @@ body {
   padding: 0 20px;
 }
 
-.nav-link::after {
-  position: absolute;
-}
-
-.nav-item a:active {
-  color: brown;
-}
-
 .nav-item a:hover {
   text-decoration: underline dotted;
-}
-
-.left-column {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
 }
 
 .main-container {
@@ -78,15 +64,15 @@ body {
 }
 
 .footer {
-  justify-content: space-between;
+  padding: 24px;
   background-color: rgba(181, 222, 255, 0.89);
-  padding: 30px;
 }
 
 .footer-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin: auto;
 }
 
 .rss {
