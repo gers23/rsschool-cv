@@ -1,2 +1,104 @@
-.color {
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.header {
+  background-color: rgba(181, 222, 255, 0.89);
+}
+
+.nav-list {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
+}
+
+.nav-link {
+  position: relative;
+  padding: 0 10px;
+  font-size: 18px;
+  color: black;
+  text-decoration: none;
+  transition: 0.3s;
+  padding: 0 20px;
+}
+
+.nav-link::after {
+  position: absolute;
+}
+
+.nav-item a:active {
+  color: brown;
+}
+
+.nav-item a:hover {
+  text-decoration: underline dotted;
+}
+
+.left-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.section {
+  width: 50%;
+}
+
+.section-title {
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: normal;
+}
+
+.footer {
+  justify-content: space-between;
+  background-color: rgba(181, 222, 255, 0.89);
+  padding: 30px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.rss {
+  width: 121px;
+  height: 45px;
+  background-image: url("./assets/rs_school_js.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+@media (max-width: 768px) {
+  .section {
+    width: 100%;
+  }
 }
