@@ -8,7 +8,6 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap" rel="stylesheet">
     <link rel="icon" href="./assets/favicon.ico">
-    <link rel="stylesheet" href="./reset.css">
     <link rel="stylesheet" href="./style.css">
     
 </head>
@@ -30,71 +29,78 @@
     </header>
 
     <main class="main">
-        <div class="container main-container">
-            <section class="section" id="profile">
-                <img src="./assets/my_photo.jpg" alt="my_photo" width="200" height="200" >
-                <div class="left-culumn">
-                    <h1 class="section-title">Mikhail Potapov</h1>
-                    <h2 class="section-title">Junior Front-End Devoper</h2>
-                </div>
-            </section>
-            <section class="section" id="contacts">
-                <h2 class="section-title">Contacts</h2>
-                <ul>
-                    <li>Phone: +7 917 796 76 75</li>
-                    <li>Email: geseker@gmail.com</li>
-                    <li>GitHub: gers23</li>
-                    <li>Telegtam: @mikhailgers</li>
-                    <li>Discord: Mikhail(@gers23)</li>
-                </ul>
-            </section>
-            <section class="section" id="about-me">
-                <h2 class="section-title">About me</h2>
-                <p>
-                    First, I want to learn Front-End Development at #RSSchool. In the future, work in this area. Over time, I will increase my level of knowledge. Learn and learn new things.
-                </p>
-            </section>
-            <section class="section" id="skills">
-                <h2 class="section-title">Skills</h2>
-                <ul class="section-list">
-                    <li>HTML/CSS</li>
-                    <li>I have been studying JS</li>
-                    <li>Git, GitHub</li>
-                    <li>Basic Python</li>
-                </ul>
-            </section>
-            <section class="section" id="code">
-                <h2 class="section-title">Code</h2>
-                <pre><code>
-                    function multiply(a, b){
-                    return a * b;
-                    }
-                </code></pre>
-            </section>
-            <section class="section" id="education">
-                <h2 class="section-title">Education</h2>
-                <p>Bashkir State University</p>
-                <p>Years: 2012-2016</p>
-                <p>Specialty: Chemical Technology, bachelors degree</p>
-            </section>
-            <section class="section" id="courses">
-                <h2 class="section-title">Courses</h2>
-                <ul>
-                    <li>RS Schools «JavaScript/Front-end. Stage 0»</li>
-                </ul>
-            </section>
-            <section class="section" id="projects">
-                <h2 class="section-title">Projects</h2>
-                <ul>
-                    <li>CV (сurriculum vitae)</li>
-                </ul>
-            </section>
-            <section class="section" id="language">
-                <h2 class="section-title">Language</h2>
-                <p>A1 - Beginner</p>
-            </section>
-            
-        </div>
+        <div class="container main-container row">
+            <div class="column left">
+                <section class="section content-profile" id="profile">
+                    <img src="./assets/my_photo.jpg" alt="my_photo" class="image-profile">
+                    <div class="name-title">
+                        <h1 class="section-title">Mikhail Potapov</h1>
+                        <h2 class="section-title">Junior Front-End Devoper</h2>
+                    </div>
+                </section>
+                <hr class="line">
+                <section class="section section-contacts section-color" id="contacts">
+                    <h2 class="section-title">Contacts</h2>
+                    <ul>
+                        <li>Phone: +7 917 796 76 75</li>
+                        <li>Email: geseker@gmail.com</li>
+                        <li>GitHub: gers23</li>
+                        <li>Telegtam: @mikhailgers</li>
+                        <li>Discord: Mikhail(@gers23)</li>
+                    </ul>
+                </section>
+                <section class="section section-color" id="skills">
+                    <h2 class="section-title">Skills</h2>
+                    <ul class="section-list">
+                        <li>HTML/CSS</li>
+                        <li>I have been studying JS</li>
+                        <li>Git, GitHub</li>
+                        <li>Basic Python</li>
+                    </ul>
+                </section>
+                
+                <section class="section section-color" id="language">
+                    <h2 class="section-title">Language</h2>
+                    <p>A1 - Beginner</p>
+                </section>
+            </div>
+
+            <div class="column right">
+                <section class="section" id="about-me">
+                    <h2 class="section-title border-title">About me</h2>
+                    <p>
+                        First, I want to learn Front-End Development at #RSSchool. In the future, work in this area. Over time, I will
+                        increase my level of knowledge. Learn and learn new things.
+                    </p>
+                </section>
+                <section class="section" id="education">
+                    <h2 class="section-title border-title">Education</h2>
+                    <p>Bashkir State University</p>
+                    <p>Years: 2012-2016</p>
+                    <p>Specialty: Chemical Technology, bachelors degree</p>
+                </section>
+                <section class="section" id="code">
+                    <h2 class="section-title border-title">Code</h2>
+                    <pre><code>
+                        function multiply(a, b) {
+                        return a * b;
+                        }
+                                            </code></pre>
+                </section>
+                <section class="section" id="courses">
+                    <h2 class="section-title border-title">Courses</h2>
+                    <ul>
+                        <li>RS Schools «JavaScript/Front-end. Stage 0»</li>
+                    </ul>
+                </section>
+                <section class="section" id="projects">
+                    <h2 class="section-title border-title">Projects</h2>
+                    <ul>
+                        <li>CV (сurriculum vitae)</li>
+                    </ul>
+                </section>
+            </div>
+        </div>                        
     </main>
 
     <footer class="footer">

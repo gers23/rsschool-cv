@@ -1,7 +1,5 @@
 ## Mikhail Potapov
 
-![photo](/my_photo.jpg "My photo")
-
 ---
 
 ### Contacs:
@@ -48,4 +46,4 @@ Specialty: Chemical Technology, bachelors degree
 
 ### Language:
 
-English level - A1
+A1 - Beginner
