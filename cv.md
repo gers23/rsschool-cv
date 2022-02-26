@@ -4,10 +4,8 @@
 
 ### Contacs:
 
-- **Phone**: +7 917 796 76 75
-- **Emain**: geseker@gmail.com
+- **Emain**: gueoha@gmail.com
 - **GitHub**: gers23
-- **Telegtam**: @mikhailgers
 - **Discord**: Mikhail(@gers23)
 
 ### About me:

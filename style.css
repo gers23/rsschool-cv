@@ -70,7 +70,7 @@ body {
 }
 
 .right {
-  width: 60%;
+  width: 50%;
   margin: 0;
 }
 
@@ -86,6 +86,7 @@ body {
 
 .section-color {
   background-color: rgba(181, 222, 255, 0.33);
+  margin: 0;
 }
 
 .section-title {
@@ -137,15 +138,17 @@ body {
 /* FOOTER ------------------------------------------------- */
 
 .footer {
-  padding: 24px;
+  /* padding: 24px; */
   background-color: rgba(181, 222, 255, 0.89);
 }
 
 .footer-container {
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin: auto;
+  padding: 0;
 }
 
 .rss {
