@@ -16,14 +16,14 @@
         <div class="container">
             <nav class="nav">
                 <ul class="nav-list">
-                    <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
-                    <li class="nav-item"><a href="#about-me" class="nav-link">About me</a></li>
-                    <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
-                    <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
-                    <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
-                    <li class="nav-item"><a href="#courses" class="nav-link">Courses</a></li>
-                    <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
-                    <li class="nav-item"><a href="#language" class="nav-link">Language</a></li>
+                    <li class="nav-item underline-animation"><a href="#contacts" class="nav-link">Contacts</a></li>
+                    <li class="nav-item underline-animation"><a href="#about-me" class="nav-link">About me</a></li>
+                    <li class="nav-item underline-animation"><a href="#skills" class="nav-link">Skills</a></li>
+                    <li class="nav-item underline-animation"><a href="#code" class="nav-link">Code</a></li>
+                    <li class="nav-item underline-animation"><a href="#education" class="nav-link">Education</a></li>
+                    <li class="nav-item underline-animation"><a href="#courses" class="nav-link">Courses</a></li>
+                    <li class="nav-item underline-animation"><a href="#projects" class="nav-link">Projects</a></li>
+                    <li class="nav-item underline-animation"><a href="#language" class="nav-link">Language</a></li>
             </ul>
         </nav>
         </div>
@@ -36,19 +36,20 @@
                     <img src="./assets/my_photo.jpg" alt="my_photo" class="image-profile">
                     <div class="name-title">
                         <h1 class="section-title">Mikhail Potapov</h1>
-                        <h2 class="section-title">Junior Front-End Devoper</h2>
+                        <hr class="line">
+                        <h2 class="section-title">Beginning Front-End Developer</h2>
                     </div>
                 </section>
-                <hr class="line">
-                <section class="section section-contacts section-color" id="contacts">
+                <div class="container-section-profile">
+                    <section class="section section-contacts" id="contacts">
                     <h2 class="section-title">Contacts</h2>
                     <ul>
-                        <li>Email: gueoha@gmail.com</li>
-                        <li>GitHub: gers23</li>
+                        <li>Email: <a href="mailto:gueoha@gmail.com" class="underline-animation">gueoha@gmail.com</a></li>
+                        <li>GitHub: <a href="https://github.com/gers23" class="underline-animation">gers23</a></li>
                         <li>Discord: Mikhail(@gers23)</li>
                     </ul>
                 </section>
-                <section class="section section-color" id="skills">
+                <section class="section" id="skills">
                     <h2 class="section-title">Skills</h2>
                     <ul class="section-list">
                         <li>HTML/CSS</li>
@@ -58,50 +59,74 @@
                     </ul>
                 </section>
                 
-                <section class="section section-color" id="language">
+                <section class="section id="language">
                     <h2 class="section-title">Language</h2>
                     <p> English: A1 - Beginner</p>
                 </section>
+                </div>
+                
             </div>
 
             <div class="column right">
-                <section class="section" id="about-me">
-                    <h2 class="section-title border-title">About me</h2>
-                    <p>
-                        First, I want to learn Front-End Development at #RSSchool. In the future, work in this area. Over time, I will
-                        increase my level of knowledge. Learn and learn new things.
-                    </p>
-                </section>
-                <section class="section" id="education">
-                    <h2 class="section-title border-title">Education</h2>
-                    <p>Bashkir State University</p>
-                    <p>Years: 2012-2016</p>
-                    <p>Specialty: Chemical Technology, bachelors degree</p>
-                </section>
-                <section class="section" id="code">
-                    <h2 class="section-title border-title">Code</h2>
-                    <pre><code>
-                        function multiply(a, b) {
-                        return a * b;
-                        }
-                                            </code></pre>
-                </section>
-                <section class="section" id="courses">
-                    <h2 class="section-title border-title">Courses</h2>
-                    <ul>
-                        <li>RS Schools «JavaScript/Front-end. Stage 0»</li>
-                    </ul>
-                </section>
-                <section class="section" id="projects">
-                    <h2 class="section-title border-title">Projects</h2>
-                    <ul>
-                        <li class="nav-item"><a href="https://gers23.github.io/rsschool-cv/" class="nav-link "> CV (сurriculum vitae)</a></li>
-                    </ul>
-                </section>
+                <div class="card-inner">
+                    <div class="card-front">
+                        <section class="section" id="about-me">
+                            <h2 class="section-title border-title">About me</h2>
+                            <p>
+                                First, I want to learn Front-End Development at #RSSchool. In the future, work in this area. Over time, I
+                                will
+                                increase my level of knowledge. Learn and learn new things.
+                            </p>
+                        </section>
+                        <section class="section" id="education">
+                            <h2 class="section-title border-title">Education</h2>
+                            <p>Bashkir State University</p>
+                            <p>Years: 2012-2016</p>
+                            <p>Specialty: Chemical Technology, bachelors degree</p>
+                        </section>
+                        <section class="section" id="projects">
+                            <h2 class="section-title border-title">Projects</h2>
+                            <ul>
+                                <li class="nav-item"><a href="https://gers23.github.io/rsschool-cv/" class="nav-link underline-animation"> CV (сurriculum vitae)</a></li>
+                                <li class="nav-item"><a href="https://rolling-scopes-school.github.io/gers23-JSFEPRESCHOOL/portfolio/" class="nav-link underline-animation">portfolio-website</a></li>
+                                <li class="nav-item"><a href="https://rolling-scopes-school.github.io/gers23-JSFEPRESCHOOL/audio-player/" class="nav-link underline-animation">audio-player</a></li>
+                                <li class="nav-item"><a href="https://rolling-scopes-school.github.io/gers23-JSFEPRESCHOOL/movie-app/" class="nav-link underline-animation">movie-app</a></li>
+                                <li class="nav-item"><a href="https://rolling-scopes-school.github.io/gers23-JSFEPRESCHOOL/random-game/" class="nav-link underline-animation">platformer-game</a></li>
+                            </ul>
+                            <!-- <p class="show-more underline-animation">show more</p> -->
+                        </section>
+                        <section class="section" id="courses">
+                            <h2 class="section-title border-title">Courses</h2>
+                            <ul>
+                                <li>RS Schools «JavaScript/Front-end. Stage 0»</li>
+                            </ul>
+                        </section>
+                        <section class="section" id="code">
+                            <h2 class="section-title border-title">Code</h2>
+                            <pre><code>
+                                function multiply(a, b) {
+                                    return a * b;
+                                }
+                                </code></pre>
+                        </section>
+                    </div>
+                    <div class="card-back">
+                        <h2 class="">Projects</h2>
+                        <ul>
+                            <li class=""><a href="https://gers23.github.io/rsschool-cv/" class="nav-link "> CV (сurriculum vitae)</a></li>
+                            <li><a href="https://rolling-scopes-school.github.io/gers23-JSFEPRESCHOOL/audio-player/">audio-player</a>
+                            </li>
+                            <li><a href="https://rolling-scopes-school.github.io/gers23-JSFEPRESCHOOL/movie-app/">movie-app</a></li>
+                            <li><a href="https://rolling-scopes-school.github.io/gers23-JSFEPRESCHOOL/portfolio/">portfolio-website</a>
+                            </li>
+                            <li><a href="https://rolling-scopes-school.github.io/gers23-JSFEPRESCHOOL/random-game/">platformer-game</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </div>
         </div>                        
     </main>
-
     <footer class="footer">
         <div class="container footer-container">
             <div> © 2022<a href="https://github.com/gers23" class="nav-link nav-item">gers23</a> </div>
@@ -110,5 +135,6 @@
             </a>
         </div>
     </footer>
+    <script src="./index.js"></script>
 </body>
 </html>
