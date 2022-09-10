@@ -1,5 +1,7 @@
 ## Mikhail Potapov
 
+### Junior Frontend Developer
+
 ---
 
 ### Contacs:
