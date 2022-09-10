@@ -54,8 +54,8 @@ Specialty: Chemical Technology, bachelors degree
 ### Projects:
 
 - CV (сurriculum vitae)
-- Projects within the framework of the «JavaScript/Front-end. Stage 0» course: audio-player, movie-app, portfolio-website, platformer game
+- Projects within the framework of the «JavaScript/Front-end. Stage 0» course: [audio-player](https://rolling-scopes-school.github.io/gers23-JSFEPRESCHOOL/audio-player/ "audio-player"), [movie-app](https://rolling-scopes-school.github.io/gers23-JSFEPRESCHOOL/movie-app/ "movie-app"), [portfolio-website](https://rolling-scopes-school.github.io/gers23-JSFEPRESCHOOL/portfolio/ "portfolio-website"), [platformer-game](https://rolling-scopes-school.github.io/gers23-JSFEPRESCHOOL/random-game/ "platformer-game")
 
 ### Language:
 
-English: A2 Elementary
+English: A2 Elementary ("B1 Intermediate" in the process...)
